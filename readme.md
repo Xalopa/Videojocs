@@ -13,3 +13,12 @@ Algunes de les meves pel·lícules preferides són:
 - Fast & Furious
 - Spider-Man
 - Avatar
+
+
+## Videojocs
+
+Alguns videojocs que m'agraden són:
+
+- EA Sports FC
+- Minecraft
+- GTA
