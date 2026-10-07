@@ -22,3 +22,13 @@ Alguns videojocs que m'agraden són:
 - EA Sports FC
 - Minecraft
 - GTA
+
+
+## Música
+
+Alguns artistes que m'agraden són:
+
+- Cyril Kamer
+- Morad
+- DELLAFUENTE
+
