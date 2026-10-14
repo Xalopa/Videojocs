@@ -1,112 +1,142 @@
-# La meva Wiki personal
+# La meva Wiki personal 🧭
 
-Benvingut a la meva wiki personal!
-Aquesta pàgina recopila apunts, projectes i les meves aficions. L'objectiu és ser un quadern personal i una petita porta d'entrada als meus interessos i treballs relacionats amb els estudis (SMX). No hi ha informació sensible; qualsevol dada personal s'ha d'afegir manualment.
+![Banner](./Miwiki/assets/banner.png) <!-- Afegeix aquí una imatge banner opcional a Miwiki/assets/banner.png -->
+
+Una compilació visual dels meus apunts, projectes i aficions, pensada com un quadern personal i un recull de recursos per a qui vulgui veure el que estic aprenent com a estudiant de Sistemes Microinformàtics i Xarxes (SMX).
+
+[![SMX Student](https://img.shields.io/badge/SMX-Estudiant-blue)](https://github.com/Xalopa) [![Repo](https://img.shields.io/badge/Repo-Videojocs-9cf)](https://github.com/Xalopa/Videojocs) [![Status](https://img.shields.io/badge/Status-In_progress-yellow)]()
+
+---
 
 ## Índex
 - [Sobre mi](#sobre-mi)
-- [Habilitats i tecnologies](#habilitats-i-tecnologies)
-- [Projectes i laboratori](#projectes-i-laboratori)
+- [Ràpid — Habilitats i estadístiques](#ràpid---habilitats-i-estadístiques)
+- [Tecnologies](#tecnologies)
+- [Projectes i activitats](#projectes-i-activitats)
 - [Aficions i interessos](#aficions-i-interessos)
   - [Pel·lícules 🎬](#pel·lícules)
   - [Videojocs 🎮](#videojocs)
   - [Música 🎧](#música)
 - [Galeria / Assets](#galeria--assets)
-- [Contacte](#contacte)
-- [Historial de canvis](#historial-de-canvis)
-- [Notes i privadesa](#notes-i-privadesa)
+- [Objectius d’aprenentatge](#objectius-daprenentatge)
+- [Com personalitzar aquest fitxer](#com-personalitzar-aquest-fitxer)
 
 ---
 
 ## Sobre mi
-(1-2 frases; afegeix aquí una breu descripció que vulguis fer pública.)
-Exemples de plantilla (no posaré cap dada per tu):
-- Estudiant de Sistemes Microinformàtics i Xarxes (SMX) interessat en Linux i administració de xarxes.
-- M'agraden els projectes petits de servidors i automatització.
-
-> Nota: deixa aquesta secció curta i controlada; si no vols mostrar dades personals, mantén-la genèrica.
+Estudiant de Sistemes Microinformàtics i Xarxes (SMX). M'interessen la informàtica pràctica, els sistemes operatius, les xarxes i la programació. Aquest espai és el meu quadern públic: apunts, proves i projectes quan estan prou documentats per compartir-los.
 
 ---
 
-## Habilitats i tecnologies
-Aquí hi ha una taula d'exemple per a les teves competències. Omple els nivells i enllaços reals quan vulguis.
+## Ràpid — Habilitats i estadístiques
+Una visió ràpida de les habilitats personals i la manera com treballo.
 
-| Habilitat / Tecnologia     | Nivell     | Notes / Enllaç |
-|---|---:|---|
-| Linux (bash)               | Intermedi  | [Afegeix enllaç a notes o scripts](./docs/linux.md) |
-| Xarxes (TCP/IP, NAT)      | Bàsic      | Laboratori SMX |
-| Virtualització (VirtualBox)| Intermedi  | VMs per proves |
-| Docker                    | Bàsic      | docker-compose per serveis locals |
-| Git / GitHub              | Intermedi  | Controls de versions i repos |
+- Resolució de problemes: ▮▮▮▮▮ — Descomposo errors i contrasto hipòtesis amb proves.
+- Aprenentatge continu: ▮▮▮▮▯ — Documentació i pràctica regular.
+- Adaptabilitat: ▮▮▮▮▯ — M’adapto a noves eines i fluxos de treball.
+- Treball en equip: ▮▮▮▮▯ — Documentació clara i comunicació senzilla.
+- Depuració bàsica d’errors: ▮▮▮▮▯ — Ús de logs i proves pas a pas.
 
-(Actualitza aquesta taula amb el teu nivell real; no inventis valors.)
+(Actualitza les barres amb el teu criteri: cada ▮ representa un pas de mida; 5 és el màxim.)
 
 ---
 
-## Projectes i laboratori
-Afegeix aquí projectes que vulguis compartir públicament (repos, carpetes, instruccions). Exemple de plantilla de projecte:
+## Tecnologies
+He organitzat les tecnologies en dos blocs: "Coneixements bàsics" (les que utilitzo amb més confiança) i "En estudi" (les que practico o vull dominar).
 
-### Exemple de projecte: Servidor Minecraft local
-- Descripció: servidor per provar configuracions, plugins i backups.
-- Tecnologies: Java, Spigot/Paper, scripts de backup (bash).
-- Com provar: ./projects/minecraft-server/README.md
-- Ruta/Repo: ./projects/minecraft-server
+### Coneixements bàsics
+- Linux (terminal, bash)
+- Git / GitHub
+- Conceptes de xarxa: TCP/IP, DHCP, DNS
+- Virtualització (VMs)
+- SSH (connexions remotes)
 
-(Posa projectes reals amb enllaços relatius al repo quan estiguin disponibles.)
+### En estudi / Prioritats
+- Docker & docker-compose
+- Scripting: Bash i Python bàsic
+- Utilitats de xarxa: ip, ss/netstat, tcpdump, traceroute
+- Servidors bàsics: LAMP / Nginx, Samba, NFS
+- Monitoratge i logs bàsics
+
+Vols una taula amb nivells (Bàsic / Intermedi / Avançat)? Puc generar-la i deixar espais per avaluar cada element.
+
+---
+
+## Projectes i activitats
+Només incloc projectes que estiguin documentats al repositori. Si no hi ha fitxers reals, usa la plantilla següent per documentar-los.
+
+### Plantilla de projecte (copia a ./projects/<nom>/README.md)
+- Nom: [nom-del-projecte]
+- Descripció: Breu (1-2 línies)
+- Tecnologies: [Linux, Bash, Java, Docker, ...]
+- Com provar: passos bàsics (clonar, configurar, executar)
+- Ruta al repo: `./projects/<nom>`
+- Estat: Planificat / En desenvolupament / Documentat
+
+> Exemple (plantilla només):  
+> - Nom: Servidor Minecraft (exemple)  
+> - Descripció: Servidor local per provar plugins i backups.  
+> - Com provar: veure `./projects/minecraft-server/README.md`
+
+Si em digues les rutes dels projectes que tens al repo, puc generar aquests README de projecte automàticament.
 
 ---
 
 ## Aficions i interessos
 
 ### Pel·lícules 🎬
-Algunes de les meves pel·lícules preferides (conservades de l'original). Afegeix una línia cortesa per explicar per què cada una t'interessa.
-- Fast & Furious — [Afegeix: per ex. acció i stunts]
-- Spider-Man — [Afegeix: per ex. història, personatge preferit]
-- Avatar — [Afegeix: per ex. efectes visuals, món]
+- Fast & Furious — (Afegeix una frase: per exemple, per l’acció i els stunts).
+- Spider-Man — (Afegeix una frase: per exemple, per la narrativa o algun personatge.).
+- Avatar — (Afegeix una frase: per exemple, per l’univers visual).
+
+> Tip: posa 1-2 paraules o una frase curta al costat de cada títol per donar context personal.
 
 ### Videojocs 🎮
-Alguns videojocs que m'agraden (conservats de l'original). Indica plataforma i, si escau, si tens projectes relacionats (mods, servidors).
-- EA Sports FC — [Plataforma: PC/PS/Xbox?]
-- Minecraft — [Notes: servidors, modding o jugar casual?]
-- GTA — [Notes: preferència per mode història o multijugador?]
+- EA Sports FC — (Indica la plataforma: PC / PS / Xbox i la modalitat).
+- Minecraft — (Si gestiones servidors, fas modding o jugues casualment, anota-ho).
+- GTA — (Indica preferència: campanya, multijugador, mods).
 
 ### Música 🎧
-Alguns artistes que m'agraden. Pots afegir gènere o cançó preferida al costat.
-- Cyril Kamer — [gènere / per què]
-- Morad — [gènere / per què]
-- DELLAFUENTE — [gènere / per què]
+- Cyril Kamer
+- Morad
+- DELLAFUENTE
 
-> Tip: Mantingues la capitalització i l'ortografia consistent (p.ex. "DELLAFUENTE" -> "Dellafuente" només si tu ho prefereixes).
+(Mantinc la grafia tal com estava; canvia-la si prefereixes una forma diferent.)
 
 ---
 
 ## Galeria / Assets
-Guarda captures i imatges a `Miwiki/assets/` i enllaça-les aquí. Exemple:
+Guarda aquí imatges, captures i diagrames que mostrin el teu treball o configuracions.
 
-![Exemple de captura](./Miwiki/assets/example.png)
+Rutes recomanades dins del repo:
+- `Miwiki/assets/banner.png` — banner principal
+- `Miwiki/assets/example-screenshot.png` — captures de projectes
+- `projects/<nom>/assets/` — assets específics per projecte
 
-(Encara no he afegit imatges; afegeix les teves imatges a la carpeta i actualitza la ruta.)
-
----
-
-## Contacte
-Pots posar aquí la informació amb què et sentis còmode:
-- GitHub: [@Xalopa](https://github.com/Xalopa)
-- Correu: (opcional)
-- LinkedIn / altres: (opcional)
+Exemple d’imatge:
+![Exemple de captura](./Miwiki/assets/example-screenshot.png)
 
 ---
 
-## Historial de canvis
-- v0.1 — Reestructuració inicial basada en la versió original (listes d'aficions).
-(Afegir entrades futures quan actualitzis la wiki.)
+## Objectius d’aprenentatge 🎯
+Objectius pensats per marcar fites clares i mesurables.
+
+- A curt termini (1–3 mesos): consolidar comandes bàsiques de Linux i connexió segura amb SSH.
+- A mig termini (3–9 mesos): muntar un home-lab amb VMs per practicar topologies bàsiques de xarxa i desplegar un servei amb Docker.
+- A llarg termini (9–12+ mesos): automatitzar tasques i escriure scripts reutilitzables; documentar procediments per facilitar la reproducció.
 
 ---
 
-## Notes i privadesa
-- Aquesta wiki conté preferències i apunts no sensibles. No comparteixis informació personal sensible aquí.
-- Quan afegeixis projectes o imatges, comprova que no inclouen contrasenyes, claus privades ni dades personals.
+## Com personalitzar aquest fitxer
+1. Substitueix les barres de progrés de les habilitats segons el teu criteri.  
+2. Afegeix la teva frase personal a cada element de les seccions d’aficions per donar context.  
+3. Posa la teva imatge banner a `Miwiki/assets/banner.png`. Si no tens imatge, elimina la línia del banner per evitar enllaçament trencat.  
+4. Si vols badges específics (GitHub, llenguatges, estats), indica'm quins i te'ls preparo.  
+5. Envia'm les rutes dels projectes reals que vols que documenti i generaré els README de projecte amb la plantilla.
 
 ---
 
-(He mantingut el contingut original i l'he intercalat amb placeholders i seccions noves perquè la wiki sigui útil per a un estudiant SMX. Si vols, puc: 1) omplir els placeholders amb dades que m'en provis, 2) afegir badges (shields.io), 3) crear la carpeta `Miwiki/assets/` i pujar imatges si m'envies els fitxers, o 4) aplicar aquests canvis directament al fitxer del repo.)
+Si estàs d’acord amb aquest estil visual, puc:
+- preparar els fitxers d’assets (carpeta `Miwiki/assets/`) i pujar-hi imatges si me les envies, i/o
+- fer el commit directe d’aquesta versió a `Miwiki/readme2.md` del repo.  
+Què prefereixes que faci a continuació?
